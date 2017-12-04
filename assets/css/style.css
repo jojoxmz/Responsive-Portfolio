@@ -68,12 +68,12 @@ h2, h3{
 	text-decoration: none;
 }
 
-nav {
+nav{
 	float: right;
 	margin-top: 25px;
 }
 
-nav a {
+nav a{
 	color: #999;
 	text-decoration: none;
 	margin-left: 15px;
@@ -86,15 +86,15 @@ nav a {
 	border-left: 1px solid #efefef;
 }
 
-nav a:first child {
+nav a:first child{
 	border-left: 0 none;
 }
 
-#main-container {
+#main-container{
 	padding-top: 130px;
 }
 
-.mainsection {
+.mainsection{
 	background: #fff;
 	padding: 30px;
 	margin: 0 0 40px 0;
@@ -104,7 +104,7 @@ nav a:first child {
 	border: 1px solid #ddd;
 }
 
-.profile-image {
+.profile-image{
 	width: 200px;
 	height: auto;
 	margin-top: 10px;
@@ -129,7 +129,7 @@ h3, .sidebar, h2{
 	line-height: 22px;
 }
 
-.icon {
+.icon{
 	width: 60px;
 	height: 60px;
 	margin-top: 8px;
@@ -221,66 +221,124 @@ input[type=submit]{
 }
 
 @media screen and (max-width: 980px) {
-	.container{
-		width: 80%;
-	}
+.container{
+	width: 80%;
+}
 
-	.mainsection {
-		width: 60%;
-	}
+.mainsection {
+	width: 60%;
+}
 
-	.sidebar{
-		width: 35%;
-	}
+.sidebar{
+	width: 35%;
+}
 
-	.profile-image{
-		width: 100%;
-		padding-bottom: 20px;
-	}
+.profile-image{
+	width: 100%;
+	padding-bottom: 20px;
+}
 
-	.work{
-		width: 100%;
-	}
-	
-	h2{
-		font-size: 20px;
-	}
+.work{
+	width: 100%;
+}
 
-	.icon{
-		width: 56px;
-		height: auto;
-	}
+h2{
+	font-size: 20px;
+}
+
+.icon{
+	width: 56px;
+	height: auto;
+}
 }
 
 @media screen and (max-width: 768px) {
-	
-	.container{
-		width: 94%;
-	}
-	
-	.mainsection {
-		width: 100%;
-	}
+.container{
+	width: 94%;
+}
 
-	.sidebar{
-		width: 100%;
-		max-width: 650px;
-		float: none;
-		clear: both;
-		margin-bottom: 40px;
-	}
+.mainsection {
+	width: 100%;
+}
 
-	header{
-		position: static;
+.sidebar{
+	width: 100%;
+	max-width: 650px;
+	float: none;
+	clear: both;
+	margin-bottom: 40px;
+}
 
-	}
+header{
+	position: static;
 
-	.profile-image{
-		width: 50%;
-		padding-bottom: 10px;
-	}
+}
 
-	.work{
-		width: 46%;
-	}
+.profile-image{
+	width: 50%;
+	padding-bottom: 10px;
+}
+
+.work{
+	width: 46%;
+}
+}
+
+@media screen and (max-width: 640px){
+.container{
+	width: 100%;
+}
+
+#mainhead{
+	position: fixed;
+	width: 100%;
+	padding: 0px;
+}
+
+#logo{
+	width: 100%;
+	display: block;
+	clear: both;
+	float: none;
+}
+
+nav{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-top: 0;
+}
+
+nav a{
+	width: 30%;
+	font-size: 18px;
+	padding: 35px;
+	padding-top: 0;
+	padding-bottom: 20px;
+	line-height: 30px;
+}
+
+.mainsection {
+	width: 92%;
+	margin-left: 25px;
+	margin-top: 10%;
+}
+
+.sidebar{
+	width: 92%;
+	max-width: 640px;
+	float: none;
+	clear: both;
+	margin-bottom: 40px;
+	margin-left: 25px;
+}
+
+.profile-image{
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.work{
+	width: 100%;
+}
 }
